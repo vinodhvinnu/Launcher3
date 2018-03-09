@@ -80,6 +80,14 @@
             </intent-filter>
         </receiver>
 
+        <receiver android:name=".DigitalClockWidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/digital_clock_widget_info" />
+        </receiver>
+
         <service android:name="com.android.launcher3.dynamicui.ColorExtractionService"
             android:exported="false"
             android:process=":wallpaper_chooser"

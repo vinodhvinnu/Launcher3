@@ -16,6 +16,7 @@ apply plugin: 'com.google.protobuf'
 android {
     compileSdkVersion 27
     buildToolsVersion '26.0.2'
+    flavorDimensions "default"
 
     defaultConfig {
         minSdkVersion 21
@@ -40,11 +41,13 @@ android {
 
     productFlavors {
         aosp {
+            dimension "default"
             applicationId 'com.google.android.apps.nexuslauncher'
             testApplicationId 'com.android.launcher3.tests'
         }
 
         l3go {
+            dimension "default"
             applicationId 'com.android.launcher3'
             testApplicationId 'com.android.launcher3.tests'
         }
