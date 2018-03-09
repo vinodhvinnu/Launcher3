@@ -5,5 +5,5 @@
     android:initialLayout="@layout/digital_clock_widget"
     android:resizeMode="horizontal|vertical"
     android:widgetCategory="home_screen|keyguard"
-    android:previewImage="@drawable/all_apps_search_hint">
+    android:previewImage="@drawable/all_apps_button_icon">
 </appwidget-provider>

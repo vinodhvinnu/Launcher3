@@ -1,4 +1,4 @@
-package com.android.launcher3;
+package com.android.launcher3.widget;
 
 import android.appwidget.AppWidgetProvider;
 
