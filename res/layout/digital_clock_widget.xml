@@ -7,13 +7,18 @@
     android:gravity="center">
 
 <TextClock
-    android:id="@+id/textClock"
+    android:id="@+id/textClockText"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_gravity="center"
     android:textStyle="normal"
-    android:textSize="57dp"
-    android:textColor="#f00"/>
+    android:textSize="57sp"
+    android:format12Hour="K:m"/>
+
+<!--<TextView
+    android:id="@+id/textClockText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoSizeTextType="uniform" />-->
 
 
 </LinearLayout>

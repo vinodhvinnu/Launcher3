@@ -21,7 +21,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start|center"
-        android:src="?gIcon" />
+        android:src="@drawable/ic_super_g_color" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="50dp"
+        android:text="Google"/>
 
     <ImageView
         android:id="@+id/mic_icon"
@@ -34,5 +40,5 @@
         android:clickable="true"
         android:contentDescription="@string/label_voice_search"
         android:scaleType="center"
-        android:src="?micIcon" />
+        android:src="@drawable/ic_mic_color" />
 </merge>
