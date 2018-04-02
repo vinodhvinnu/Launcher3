@@ -27,19 +27,14 @@
     <string name="safemode_shortcut_error" msgid="9160126848219158407">"Deskargatutako aplikazioa modu seguruan desgaitu da"</string>
     <string name="safemode_widget_error" msgid="4863470563535682004">"Widgetak desgaitu egin dira modu seguruan"</string>
     <string name="shortcut_not_available" msgid="2536503539825726397">"Lasterbideak ez daude erabilgarri"</string>
-    <string name="home_screen" msgid="806512411299847073">"Hasierako pantaila"</string>
-    <string name="custom_actions" msgid="3747508247759093328">"Ekintza pertsonalizatuak"</string>
     <string name="long_press_widget_to_add" msgid="7699152356777458215">"Eduki sakatuta widgeta aukeratzeko."</string>
     <string name="long_accessible_way_to_add" msgid="4289502106628154155">"Sakatu birritan eta eduki sakatuta widgeta aukeratzeko edo ekintza pertsonalizatuak erabiltzeko."</string>
     <string name="widget_dims_format" msgid="2370757736025621599">"%1$d × %2$d"</string>
     <string name="widget_accessible_dims_format" msgid="3640149169885301790">"%1$d zabal eta %2$d luze"</string>
-    <string name="add_item_request_drag_hint" msgid="5899764264480397019">"Eduki sakatuta eskuz gehitzeko"</string>
-    <string name="place_automatically" msgid="8064208734425456485">"Gehitu automatikoki"</string>
-    <string name="all_apps_search_bar_hint" msgid="1390553134053255246">"Bilatu aplikazioetan"</string>
-    <string name="all_apps_loading_message" msgid="5813968043155271636">"Aplikazioak kargatzen…"</string>
-    <string name="all_apps_no_search_results" msgid="3200346862396363786">"Ez da aurkitu \"<xliff:g id="QUERY">%1$s</xliff:g>\" bilaketaren emaitzarik"</string>
+    <string name="all_apps_search_bar_hint" msgid="7084713969757597256">"Bilatu aplikazioetan"</string>
+    <string name="all_apps_loading_message" msgid="7557140873644765180">"Aplikazioak kargatzen…"</string>
+    <string name="all_apps_no_search_results" msgid="6332185285860416787">"Ez da aurkitu \"<xliff:g id="QUERY">%1$s</xliff:g>\" bilaketarekin bat datorren aplikaziorik"</string>
     <string name="all_apps_search_market_message" msgid="1366263386197059176">"Bilatu aplikazio gehiago"</string>
-    <string name="notifications_header" msgid="1404149926117359025">"Jakinarazpenak"</string>
     <string name="out_of_space" msgid="4691004494942118364">"Hasierako pantaila honetan ez dago toki gehiago."</string>
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"Ez dago toki gehiago Gogokoak erretiluan"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"Aplikazioen zerrenda"</string>
@@ -70,27 +65,12 @@
     <string name="folder_name_format" msgid="6629239338071103179">"Karpeta: <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="widget_button_text" msgid="2880537293434387943">"Widgetak"</string>
     <string name="wallpaper_button_text" msgid="8404103075899945851">"Horma-paperak"</string>
-    <string name="settings_button_text" msgid="8873672322605444408">"Hasierako pantailaren ezarpenak"</string>
+    <string name="settings_button_text" msgid="8119458837558863227">"Ezarpenak"</string>
     <string name="msg_disabled_by_admin" msgid="6898038085516271325">"Administratzaileak desgaitu du"</string>
     <string name="accessibility_action_overview" msgid="6257665857640347026">"Ikuspegi orokorra"</string>
     <string name="allow_rotation_title" msgid="7728578836261442095">"Baimendu hasierako pantaila biratzea"</string>
     <string name="allow_rotation_desc" msgid="8662546029078692509">"Telefonoa biratzen denean"</string>
     <string name="allow_rotation_blocked_desc" msgid="3212602545192996253">"Uneko pantaila-ezarpenak ez du onartzen ikuspegia biratzea"</string>
-    <string name="icon_badging_title" msgid="874121399231955394">"Jakinarazteko biribiltxoak"</string>
-    <string name="icon_badging_desc_on" msgid="2627952638544674079">"Aktibatuta"</string>
-    <string name="icon_badging_desc_off" msgid="5503319969924580241">"Desaktibatuta"</string>
-    <string name="title_missing_notification_access" msgid="7503287056163941064">"Jakinarazpenetarako sarbidea behar da"</string>
-    <string name="msg_missing_notification_access" msgid="281113995110910548">"Jakinarazteko biribiltxoak ikusteko, aktibatu <xliff:g id="NAME">%1$s</xliff:g> aplikazioaren jakinarazpenak"</string>
-    <string name="title_change_settings" msgid="1376365968844349552">"Aldatu ezarpenak"</string>
-    <string name="auto_add_shortcuts_label" msgid="8222286205987725611">"Gehitu ikonoa hasierako pantailan"</string>
-    <string name="auto_add_shortcuts_description" msgid="7117251166066978730">"Aplikazio berrietan"</string>
-    <string name="icon_shape_override_label" msgid="2977264953998281004">"Aldatu ikonoaren forma"</string>
-    <string name="icon_shape_system_default" msgid="1709762974822753030">"Erabili sistemaren balio lehenetsiak"</string>
-    <string name="icon_shape_square" msgid="633575066111622774">"Karratua"</string>
-    <string name="icon_shape_squircle" msgid="5658049910802669495">"Ertz biribilduko karratua"</string>
-    <string name="icon_shape_circle" msgid="6550072265930144217">"Zirkulua"</string>
-    <string name="icon_shape_teardrop" msgid="4525869388200835463">"Malkoa"</string>
-    <string name="icon_shape_override_progress" msgid="3461735694970239908">"Ikonoaren forman egindako aldaketak aplikatzen"</string>
     <string name="package_state_unknown" msgid="7592128424511031410">"Ezezaguna"</string>
     <string name="abandoned_clean_this" msgid="7610119707847920412">"Kendu"</string>
     <string name="abandoned_search" msgid="891119232568284442">"Bilatu"</string>
@@ -98,7 +78,6 @@
     <string name="abandoned_promise_explanation" msgid="3990027586878167529">"Ikono honen aplikazioa ez dago instalatuta. Ikonoa ken dezakezu, edo aplikazioa bilatu eta eskuz instalatu."</string>
     <string name="app_downloading_title" msgid="8336702962104482644">"<xliff:g id="NAME">%1$s</xliff:g> deskargatzen, <xliff:g id="PROGRESS">%2$s</xliff:g> osatuta"</string>
     <string name="app_waiting_download_title" msgid="7053938513995617849">"<xliff:g id="NAME">%1$s</xliff:g> instalatzeko zain"</string>
-    <string name="widgets_bottom_sheet_title" msgid="2904559530954183366">"<xliff:g id="NAME">%1$s</xliff:g> widgetak"</string>
     <string name="action_add_to_workspace" msgid="8902165848117513641">"Gehitu hasierako pantailan"</string>
     <string name="action_move_here" msgid="2170188780612570250">"Ekarri elementua hona"</string>
     <string name="item_added_to_workspace" msgid="4211073925752213539">"Gehitu da elementua hasierako pantailan"</string>
@@ -125,24 +104,6 @@
     <string name="widget_resized" msgid="9130327887929620">"Aldatu da widgetaren tamaina. Zabalera: <xliff:g id="NUMBER_0">%1$s</xliff:g>. Altuera: <xliff:g id="NUMBER_1">%2$s</xliff:g>."</string>
     <string name="action_deep_shortcut" msgid="2864038805849372848">"Lasterbideak"</string>
     <string name="shortcuts_menu_description" msgid="406159963824238648">"<xliff:g id="APP_NAME">%2$s</xliff:g> aplikazioaren <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> lasterbide"</string>
-    <string name="shortcuts_menu_with_notifications_description" msgid="8985659504915468840">"<xliff:g id="APP_NAME">%3$s</xliff:g> aplikazioaren <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> lasterbide eta <xliff:g id="NUMBER_OF_NOTIFICATIONS">%2$d</xliff:g> jakinarazpen"</string>
-    <string name="action_dismiss_notification" msgid="5909461085055959187">"Baztertu"</string>
-    <string name="notification_dismissed" msgid="6002233469409822874">"Baztertu egin da jakinarazpena"</string>
-    <string name="smartspace_preferences">Hobespenak</string>
     <string name="label_search">Bilatu</string>
-    <string name="label_voice_search">Ahozko bilaketa</string>
-    <string name="smartspace_preferences_in_settings">Begiratu hutsa</string>
-    <string name="smartspace_preferences_in_settings_desc">Hasierako pantailaren goialdean</string>
-    <string name="title_show_google_app">Erakutsi %1$s</string>
-    <string name="msg_minus_one_on_left">Hasierako pantailaren ezkerrean</string>
-    <string name="about">Honi buruz</string>
-    <string name="title_google_app">Google aplikazioa</string>
-    <string name="title_app_suggestions">Erakutsi aplikazioen iradokizunak</string>
-    <string name="summary_app_suggestions">\"Aplikazio guztiak\" zerrendaren goialdean</string>
-    <string name="about_app_version">Bertsioa</string>
-    <string name="app_name_pixel_launcher">Pixel abiarazlea</string>
-    <string name="title_disable_suggestions_prompt">Iradokitako aplikazioak desaktibatu nahi dituzu?</string>
-    <string name="msg_disable_suggestions_prompt">Ez dira agertuko iradokizunak aplikazio-zerrendaren goialdean, eta horiek sortzeko erabilitako erabilera-datuak betiko ezabatuko dira.</string>
-    <string name="label_turn_off_suggestions">DESAKTIBATU</string>
-    <string name="icon_shape_rounded_square">Ertz biribilduko karratua</string>
+    <string name="week_day_format">%1$s, %2$s</string>
 </resources>

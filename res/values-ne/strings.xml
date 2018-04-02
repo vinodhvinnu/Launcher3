@@ -27,19 +27,14 @@
     <string name="safemode_shortcut_error" msgid="9160126848219158407">"सुरक्षित मोडमा डाउनलोड गरेको अनुप्रयोग अक्षम गरिएको छ"</string>
     <string name="safemode_widget_error" msgid="4863470563535682004">"सुरक्षित मोडमा विगेटहरू अक्षम गरियो"</string>
     <string name="shortcut_not_available" msgid="2536503539825726397">"सर्टकट उपलब्ध छैन"</string>
-    <string name="home_screen" msgid="806512411299847073">"गृह स्क्रिन"</string>
-    <string name="custom_actions" msgid="3747508247759093328">"आफू अनुकूलका कारबाहीहरू"</string>
     <string name="long_press_widget_to_add" msgid="7699152356777458215">"एउटा विजेटलाई टिप्नको लागि टच गरेर होल्ड गर्नुहोस्।"</string>
-    <string name="long_accessible_way_to_add" msgid="4289502106628154155">"विजेटलाई छान्न वा आफू अनुकूल कार्यहरू प्रयोग गर्न डबल ट्याप गरी होल्ड गर्नुहोस्।"</string>
+    <string name="long_accessible_way_to_add" msgid="4289502106628154155">"विजेटलाई छान्न वा अनुकूलन कार्यहरू प्रयोग गर्न डबल ट्याप गरी होल्ड गर्नुहोस्।"</string>
     <string name="widget_dims_format" msgid="2370757736025621599">"%1$d × %2$d"</string>
     <string name="widget_accessible_dims_format" msgid="3640149169885301790">"%1$d चौडाइ गुणा %2$d उचाइ"</string>
-    <string name="add_item_request_drag_hint" msgid="5899764264480397019">"म्यानुअल तरिकाले थप्न छुनुहोस् र थिची राख्नुहोस्‌"</string>
-    <string name="place_automatically" msgid="8064208734425456485">"स्वतः थप्नुहोस्"</string>
-    <string name="all_apps_search_bar_hint" msgid="1390553134053255246">"खोजसम्बन्धी अनुप्रयोगहरू"</string>
-    <string name="all_apps_loading_message" msgid="5813968043155271636">"अनुप्रयोगहरू लोड गर्दै…"</string>
-    <string name="all_apps_no_search_results" msgid="3200346862396363786">"\"<xliff:g id="QUERY">%1$s</xliff:g>\" सँग मिल्दो कुनै अनुप्रयोग भेटिएन"</string>
+    <string name="all_apps_search_bar_hint" msgid="7084713969757597256">"अनुप्रयोगहरू खोज्नुहोस्"</string>
+    <string name="all_apps_loading_message" msgid="7557140873644765180">"अनुप्रयोगहरू लोड गरिँदै..."</string>
+    <string name="all_apps_no_search_results" msgid="6332185285860416787">"\"<xliff:g id="QUERY">%1$s</xliff:g>\" सँग मिल्दो कुनै अनुप्रयोगहरू फेला परेनन्"</string>
     <string name="all_apps_search_market_message" msgid="1366263386197059176">"थप अनुप्रयोगहरू खोज्नुहोस्"</string>
-    <string name="notifications_header" msgid="1404149926117359025">"सूचनाहरू"</string>
     <string name="out_of_space" msgid="4691004494942118364">"यो गृह स्क्रिनमा कुनै थप ठाउँ छैन।"</string>
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"मनपर्ने ट्रे अब कुनै ठाँउ छैन"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"अनुप्रयोगको सूची"</string>
@@ -70,35 +65,19 @@
     <string name="folder_name_format" msgid="6629239338071103179">"फोल्डर: <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="widget_button_text" msgid="2880537293434387943">"विजेटहरू"</string>
     <string name="wallpaper_button_text" msgid="8404103075899945851">"वालपेपरहरु"</string>
-    <string name="settings_button_text" msgid="8873672322605444408">"गृहपृष्ठका सेटिङहरू"</string>
+    <string name="settings_button_text" msgid="8119458837558863227">"सेटिंङहरू"</string>
     <string name="msg_disabled_by_admin" msgid="6898038085516271325">"तपाईँको प्रशासकद्वारा असक्षम गरिएको"</string>
     <string name="accessibility_action_overview" msgid="6257665857640347026">"परिदृश्य"</string>
     <string name="allow_rotation_title" msgid="7728578836261442095">"गृह स्क्रिनलाई घुम्ने अनुमति दिनुहोस्"</string>
     <string name="allow_rotation_desc" msgid="8662546029078692509">"फोनलाई घुमाइँदा"</string>
     <string name="allow_rotation_blocked_desc" msgid="3212602545192996253">"हालको प्रदर्शन सम्बन्धी सेटिङले घुमाउने सुविधालाई अनुमति दिँदैन"</string>
-    <string name="icon_badging_title" msgid="874121399231955394">"सूचनाको प्रतीक जनाउने थोप्लोहरू"</string>
-    <string name="icon_badging_desc_on" msgid="2627952638544674079">"सक्रिय छ"</string>
-    <string name="icon_badging_desc_off" msgid="5503319969924580241">"निष्क्रिय छ"</string>
-    <string name="title_missing_notification_access" msgid="7503287056163941064">"सूचनासम्बन्धी पहुँच आवश्यक हुन्छ"</string>
-    <string name="msg_missing_notification_access" msgid="281113995110910548">"सूचनाको प्रतीक जनाउने थोप्लाहरू देखाउन <xliff:g id="NAME">%1$s</xliff:g> को अनुप्रयोगसम्बन्धी सूचनाहरूलाई सक्रिय गर्नुहोस्"</string>
-    <string name="title_change_settings" msgid="1376365968844349552">"सेटिङहरू बदल्नुहोस्"</string>
-    <string name="auto_add_shortcuts_label" msgid="8222286205987725611">"गृह स्क्रिनमा आइकन थप्नुहोस्"</string>
-    <string name="auto_add_shortcuts_description" msgid="7117251166066978730">"नयाँ अनुप्रयोगका लागि"</string>
-    <string name="icon_shape_override_label" msgid="2977264953998281004">"आइकनको आकार परिवर्तन गर्नुहोस्"</string>
-    <string name="icon_shape_system_default" msgid="1709762974822753030">"प्रणालीको पूर्वनिर्धारित सेटिङ प्रयोग गर्नुहोस्"</string>
-    <string name="icon_shape_square" msgid="633575066111622774">"वर्ग"</string>
-    <string name="icon_shape_squircle" msgid="5658049910802669495">"वर्गाकार वृत्त"</string>
-    <string name="icon_shape_circle" msgid="6550072265930144217">"वृत्त"</string>
-    <string name="icon_shape_teardrop" msgid="4525869388200835463">"आँसुको थोपा"</string>
-    <string name="icon_shape_override_progress" msgid="3461735694970239908">"आइकनको आकारमा गरिएका परिवर्तनहरू लागू गरिँदैछन्"</string>
     <string name="package_state_unknown" msgid="7592128424511031410">"अज्ञात"</string>
     <string name="abandoned_clean_this" msgid="7610119707847920412">"हटाउनुहोस्"</string>
     <string name="abandoned_search" msgid="891119232568284442">"खोजी गर्नुहोस्"</string>
     <string name="abandoned_promises_title" msgid="7096178467971716750">"यो अनुप्रयोग स्थापित छैन"</string>
-    <string name="abandoned_promise_explanation" msgid="3990027586878167529">"यो प्रतिमाका लागि अनुप्रयोगलाई स्थापना गरिएको छैन। तपाईं यसलाई हटाउन, वा अनुप्रयोग खोजी र स्वयं यो स्थापित गर्न सक्नुहुन्छ।"</string>
+    <string name="abandoned_promise_explanation" msgid="3990027586878167529">"यो प्रतिमाका लागि अनुप्रयोगलाई स्थापना गरिएको छैन। तपाईँ यसलाई हटाउन, वा अनुप्रयोग खोजी र स्वयं यो स्थापित गर्न सक्नुहुन्छ।"</string>
     <string name="app_downloading_title" msgid="8336702962104482644">"<xliff:g id="NAME">%1$s</xliff:g> डाउनलोड गर्दै, <xliff:g id="PROGRESS">%2$s</xliff:g> सम्पन्‍न"</string>
     <string name="app_waiting_download_title" msgid="7053938513995617849">"<xliff:g id="NAME">%1$s</xliff:g> स्थापना गर्न प्रतीक्षा गर्दै"</string>
-    <string name="widgets_bottom_sheet_title" msgid="2904559530954183366">"<xliff:g id="NAME">%1$s</xliff:g> विजेटहरू"</string>
     <string name="action_add_to_workspace" msgid="8902165848117513641">"गृह स्क्रिनमा थप्नुहोस्"</string>
     <string name="action_move_here" msgid="2170188780612570250">"वस्तु यहाँ सार्नुहोस्"</string>
     <string name="item_added_to_workspace" msgid="4211073925752213539">"वस्तु गृह स्क्रिनमा थपियो"</string>
@@ -125,24 +104,6 @@
     <string name="widget_resized" msgid="9130327887929620">"विजेट चौडाइ <xliff:g id="NUMBER_0">%1$s</xliff:g> उचाइ <xliff:g id="NUMBER_1">%2$s</xliff:g> मा पुनः आकार मिलाइयो"</string>
     <string name="action_deep_shortcut" msgid="2864038805849372848">"सर्टकटहरू"</string>
     <string name="shortcuts_menu_description" msgid="406159963824238648">"<xliff:g id="APP_NAME">%2$s</xliff:g> का <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> सर्टकटहरू"</string>
-    <string name="shortcuts_menu_with_notifications_description" msgid="8985659504915468840">"<xliff:g id="APP_NAME">%3$s</xliff:g> का <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> सर्टकट र <xliff:g id="NUMBER_OF_NOTIFICATIONS">%2$d</xliff:g> सूचनाहरू"</string>
-    <string name="action_dismiss_notification" msgid="5909461085055959187">"खारेज गर्नुहोस्"</string>
-    <string name="notification_dismissed" msgid="6002233469409822874">"सूचना खारेज गरियो"</string>
-    <string name="smartspace_preferences">प्राथमिकताहरू</string>
     <string name="label_search">खोज्नुहोस्</string>
-    <string name="label_voice_search">आवाज मार्फत खोजी</string>
-    <string name="smartspace_preferences_in_settings">एक झलकमा सम्पूर्ण सुविधाबारे जानकारी</string>
-    <string name="smartspace_preferences_in_settings_desc">तपाईंको गृह स्क्रिनको शीर्षमा अवस्थित छ</string>
-    <string name="title_show_google_app">%1$s देखाउनुहोस्</string>
-    <string name="msg_minus_one_on_left">मुख्य गृह स्क्रिनको बायाँतिर</string>
-    <string name="about">बारेमा</string>
-    <string name="title_google_app">Google app</string>
-    <string name="title_app_suggestions">अनुप्रयोगबारे सुझाावहरू देखाउनुहोस्</string>
-    <string name="summary_app_suggestions">तपाईंका सबै अनुप्रयोगहरूको सूचीको शीर्षमा देखाइन्छ</string>
-    <string name="about_app_version">संस्करण</string>
-    <string name="app_name_pixel_launcher">Pixel Launcher</string>
-    <string name="title_disable_suggestions_prompt">अनुप्रयोग बारे सुझावहरूलाई निष्क्रिय पार्ने हो?</string>
-    <string name="msg_disable_suggestions_prompt">तपाईँका अनुप्रयोगहरूको सूचीको शीर्षमा सुझावहरू देखिने छैनन् र तिनीहरूलाई सिर्जना गर्न प्रयोग गरिने प्रयोग सम्बन्धी डेटालाई स्थायी रूपमा मेटाइनेछ।</string>
-    <string name="label_turn_off_suggestions">निष्क्रिय पार्नुहोस्</string>
-    <string name="icon_shape_rounded_square">गोलाकार वर्ग</string>
+    <string name="week_day_format">%1$s, %2$s</string>
 </resources>

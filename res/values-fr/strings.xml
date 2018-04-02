@@ -27,19 +27,14 @@
     <string name="safemode_shortcut_error" msgid="9160126848219158407">"L\'application téléchargée est désactivée en mode sécurisé."</string>
     <string name="safemode_widget_error" msgid="4863470563535682004">"Les widgets sont désactivés en mode sécurisé."</string>
     <string name="shortcut_not_available" msgid="2536503539825726397">"Raccourci non disponible"</string>
-    <string name="home_screen" msgid="806512411299847073">"Écran d\'accueil"</string>
-    <string name="custom_actions" msgid="3747508247759093328">"Actions personnalisées"</string>
     <string name="long_press_widget_to_add" msgid="7699152356777458215">"App. de manière prolongée pour sélectionner widget."</string>
     <string name="long_accessible_way_to_add" msgid="4289502106628154155">"Appuyez 2 fois et maintenez la pression pour sélectionner widget ou utilisez actions personnalisées."</string>
     <string name="widget_dims_format" msgid="2370757736025621599">"%1$d x %2$d"</string>
     <string name="widget_accessible_dims_format" msgid="3640149169885301790">"%1$d de largeur et %2$d de hauteur"</string>
-    <string name="add_item_request_drag_hint" msgid="5899764264480397019">"Appuyez de manière prolongée pour placer l\'élément manuellement"</string>
-    <string name="place_automatically" msgid="8064208734425456485">"Ajouter automatiquement"</string>
-    <string name="all_apps_search_bar_hint" msgid="1390553134053255246">"Rechercher dans les applications"</string>
-    <string name="all_apps_loading_message" msgid="5813968043155271636">"Chargement des applications…"</string>
-    <string name="all_apps_no_search_results" msgid="3200346862396363786">"Aucune application ne correspond à la requête \"<xliff:g id="QUERY">%1$s</xliff:g>\""</string>
+    <string name="all_apps_search_bar_hint" msgid="7084713969757597256">"Rechercher dans les applications"</string>
+    <string name="all_apps_loading_message" msgid="7557140873644765180">"Chargement des applications en cours…"</string>
+    <string name="all_apps_no_search_results" msgid="6332185285860416787">"Aucune application ne correspond à la requête \"<xliff:g id="QUERY">%1$s</xliff:g>\"."</string>
     <string name="all_apps_search_market_message" msgid="1366263386197059176">"Rechercher plus d\'applications"</string>
-    <string name="notifications_header" msgid="1404149926117359025">"Notifications"</string>
     <string name="out_of_space" msgid="4691004494942118364">"Pas d\'espace libre sur cet écran d\'accueil."</string>
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"Plus d\'espace disponible dans la zone de favoris."</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"Liste d\'applications"</string>
@@ -70,27 +65,12 @@
     <string name="folder_name_format" msgid="6629239338071103179">"Dossier \"<xliff:g id="NAME">%1$s</xliff:g>\""</string>
     <string name="widget_button_text" msgid="2880537293434387943">"Widgets"</string>
     <string name="wallpaper_button_text" msgid="8404103075899945851">"Fonds d\'écran"</string>
-    <string name="settings_button_text" msgid="8873672322605444408">"Paramètres de l\'écran d\'accueil"</string>
+    <string name="settings_button_text" msgid="8119458837558863227">"Paramètres"</string>
     <string name="msg_disabled_by_admin" msgid="6898038085516271325">"Désactivé par votre administrateur"</string>
     <string name="accessibility_action_overview" msgid="6257665857640347026">"Vue d\'ensemble"</string>
     <string name="allow_rotation_title" msgid="7728578836261442095">"Autoriser la rotation de l\'écran d\'accueil"</string>
     <string name="allow_rotation_desc" msgid="8662546029078692509">"Lorsque vous faites pivoter le téléphone"</string>
     <string name="allow_rotation_blocked_desc" msgid="3212602545192996253">"Le paramètre d\'affichage actuel n\'autorise pas la rotation."</string>
-    <string name="icon_badging_title" msgid="874121399231955394">"Pastilles de notification"</string>
-    <string name="icon_badging_desc_on" msgid="2627952638544674079">"Activé"</string>
-    <string name="icon_badging_desc_off" msgid="5503319969924580241">"Désactivé"</string>
-    <string name="title_missing_notification_access" msgid="7503287056163941064">"Accès aux notifications requis"</string>
-    <string name="msg_missing_notification_access" msgid="281113995110910548">"Pour afficher les pastilles de notification, activez les notifications de l\'application <xliff:g id="NAME">%1$s</xliff:g>"</string>
-    <string name="title_change_settings" msgid="1376365968844349552">"Modifier les paramètres"</string>
-    <string name="auto_add_shortcuts_label" msgid="8222286205987725611">"Ajouter l\'icône à l\'écran d\'accueil"</string>
-    <string name="auto_add_shortcuts_description" msgid="7117251166066978730">"Pour les nouvelles applications"</string>
-    <string name="icon_shape_override_label" msgid="2977264953998281004">"Modifier la forme des icônes"</string>
-    <string name="icon_shape_system_default" msgid="1709762974822753030">"Utiliser la valeur système par défaut"</string>
-    <string name="icon_shape_square" msgid="633575066111622774">"Carré"</string>
-    <string name="icon_shape_squircle" msgid="5658049910802669495">"Squircle"</string>
-    <string name="icon_shape_circle" msgid="6550072265930144217">"Cercle"</string>
-    <string name="icon_shape_teardrop" msgid="4525869388200835463">"Goutte"</string>
-    <string name="icon_shape_override_progress" msgid="3461735694970239908">"Application des modifications de forme des icônes…"</string>
     <string name="package_state_unknown" msgid="7592128424511031410">"Inconnu"</string>
     <string name="abandoned_clean_this" msgid="7610119707847920412">"Supprimer"</string>
     <string name="abandoned_search" msgid="891119232568284442">"Rechercher"</string>
@@ -98,7 +78,6 @@
     <string name="abandoned_promise_explanation" msgid="3990027586878167529">"L\'application correspondant à cette icône n\'est pas installée. Vous pouvez supprimer cette dernière, ou essayer de rechercher l\'application et de l\'installer manuellement."</string>
     <string name="app_downloading_title" msgid="8336702962104482644">"<xliff:g id="NAME">%1$s</xliff:g> en cours de téléchargement, <xliff:g id="PROGRESS">%2$s</xliff:g> effectué(s)"</string>
     <string name="app_waiting_download_title" msgid="7053938513995617849">"<xliff:g id="NAME">%1$s</xliff:g> en attente d\'installation"</string>
-    <string name="widgets_bottom_sheet_title" msgid="2904559530954183366">"Widgets <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="action_add_to_workspace" msgid="8902165848117513641">"Ajouter à l\'écran d\'accueil"</string>
     <string name="action_move_here" msgid="2170188780612570250">"Déplacer l\'élément ici"</string>
     <string name="item_added_to_workspace" msgid="4211073925752213539">"L\'élément a bien été ajouté à l\'écran d\'accueil."</string>
@@ -125,29 +104,6 @@
     <string name="widget_resized" msgid="9130327887929620">"Le widget a bien été redimensionné (largeur : <xliff:g id="NUMBER_0">%1$s</xliff:g>, hauteur : <xliff:g id="NUMBER_1">%2$s</xliff:g>)."</string>
     <string name="action_deep_shortcut" msgid="2864038805849372848">"Raccourcis"</string>
     <string name="shortcuts_menu_description" msgid="406159963824238648">"<xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> raccourcis pour <xliff:g id="APP_NAME">%2$s</xliff:g>"</string>
-    <string name="shortcuts_menu_with_notifications_description" msgid="8985659504915468840">"<xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> raccourcis et <xliff:g id="NUMBER_OF_NOTIFICATIONS">%2$d</xliff:g> notifications pour <xliff:g id="APP_NAME">%3$s</xliff:g>"</string>
-    <string name="action_dismiss_notification" msgid="5909461085055959187">"Ignorer"</string>
-    <string name="notification_dismissed" msgid="6002233469409822874">"Notification ignorée"</string>
-    <string name="smartspace_preferences">Préférences</string>
     <string name="label_search">Rechercher</string>
-    <string name="label_voice_search">Recherche vocale</string>
-    <string name="pref_icon_pack">"Pack d'icônes"</string>
-    <string name="state_loading">"En cours d'application…"</string>
-    <string name="smartspace_preferences_in_settings">En bref</string>
-    <string name="smartspace_preferences_in_settings_desc">"En haut de votre écran d'accueil"</string>
-    <string name="title_show_google_app">Afficher %1$s</string>
-    <string name="msg_minus_one_on_left">"Sur la gauche de l'écran d'accueil principal"</string>
-    <string name="about">À propos</string>
-    <string name="title_google_app">appli Google</string>
-    <string name="title_app_suggestions">"Afficher les suggestions d'applications"</string>
-    <string name="summary_app_suggestions">En haut de la liste de toutes vos applications</string>
-    <string name="about_app_version">Version</string>
-    <string name="app_name_pixel_launcher">Pixel Launcher</string>
-    <string name="title_disable_suggestions_prompt">"Désactiver les suggestions d'applications ?"</string>
-    <string name="msg_disable_suggestions_prompt">"Les suggestions ne s'afficheront pas en haut de votre liste d'applications, et les données d'utilisation employées pour les créer seront supprimées définitivement."</string>
-    <string name="label_turn_off_suggestions">DÉSACTIVER</string>
-    <string name="action_edit">Modifier</string>
-  <string name="hide_app_sum">Masquer l\'application de la liste des applications</string>
-  <string name="hide_app">Masquer app</string>
-    <string name="icon_shape_rounded_square">Carré arrondi</string>
+    <string name="week_day_format">%1$s, %2$s</string>
 </resources>

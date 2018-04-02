@@ -18,40 +18,46 @@ package com.android.launcher3;
 
 import android.app.WallpaperManager;
 import android.content.Context;
+import android.graphics.Paint;
 import android.graphics.Rect;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.launcher3.CellLayout.ContainerType;
-
 public class ShortcutAndWidgetContainer extends ViewGroup {
-    static final String TAG = "ShortcutAndWidgetContainer";
+    static final String TAG = "CellLayoutChildren";
 
     // These are temporary variables to prevent having to allocate a new object just to
     // return an (x, y) value from helper functions. Do NOT use them to maintain other state.
     private final int[] mTmpCellXY = new int[2];
 
-    @ContainerType private final int mContainerType;
     private final WallpaperManager mWallpaperManager;
+
+    private boolean mIsHotseatLayout;
 
     private int mCellWidth;
     private int mCellHeight;
 
+    private int mWidthGap;
+    private int mHeightGap;
+
     private int mCountX;
 
     private Launcher mLauncher;
+
     private boolean mInvertIfRtl = false;
 
-    public ShortcutAndWidgetContainer(Context context, @ContainerType int containerType) {
+    public ShortcutAndWidgetContainer(Context context) {
         super(context);
         mLauncher = Launcher.getLauncher(context);
         mWallpaperManager = WallpaperManager.getInstance(context);
-        mContainerType = containerType;
     }
 
-    public void setCellDimensions(int cellWidth, int cellHeight, int countX, int countY) {
+    public void setCellDimensions(int cellWidth, int cellHeight, int widthGap, int heightGap,
+            int countX, int countY) {
         mCellWidth = cellWidth;
         mCellHeight = cellHeight;
+        mWidthGap = widthGap;
+        mHeightGap = heightGap;
         mCountX = countX;
     }
 
@@ -85,15 +91,9 @@ public class ShortcutAndWidgetContainer extends ViewGroup {
         }
     }
 
-    public void setupLp(View child) {
-        CellLayout.LayoutParams lp = (CellLayout.LayoutParams) child.getLayoutParams();
-        if (child instanceof LauncherAppWidgetHostView) {
-            DeviceProfile profile = mLauncher.getDeviceProfile();
-            lp.setup(mCellWidth, mCellHeight, invertLayoutHorizontally(), mCountX,
-                    profile.appWidgetScale.x, profile.appWidgetScale.y);
-        } else {
-            lp.setup(mCellWidth, mCellHeight, invertLayoutHorizontally(), mCountX);
-        }
+    public void setupLp(CellLayout.LayoutParams lp) {
+        lp.setup(mCellWidth, mCellHeight, mWidthGap, mHeightGap, invertLayoutHorizontally(),
+                mCountX);
     }
 
     // Set whether or not to invert the layout horizontally if the layout is in RTL mode.
@@ -101,28 +101,38 @@ public class ShortcutAndWidgetContainer extends ViewGroup {
         mInvertIfRtl = invert;
     }
 
-    public int getCellContentHeight() {
-        return Math.min(getMeasuredHeight(),
-                mLauncher.getDeviceProfile().getCellHeight(mContainerType));
+    public void setIsHotseat(boolean isHotseat) {
+        mIsHotseatLayout = isHotseat;
+    }
+
+    int getCellContentWidth() {
+        final DeviceProfile grid = mLauncher.getDeviceProfile();
+        return Math.min(getMeasuredHeight(), mIsHotseatLayout ?
+                grid.hotseatCellWidthPx: grid.cellWidthPx);
+    }
+
+    int getCellContentHeight() {
+        final DeviceProfile grid = mLauncher.getDeviceProfile();
+        return Math.min(getMeasuredHeight(), mIsHotseatLayout ?
+                grid.hotseatCellHeightPx : grid.cellHeightPx);
     }
 
     public void measureChild(View child) {
+        final DeviceProfile grid = mLauncher.getDeviceProfile();
+        final int cellWidth = mCellWidth;
+        final int cellHeight = mCellHeight;
         CellLayout.LayoutParams lp = (CellLayout.LayoutParams) child.getLayoutParams();
         if (!lp.isFullscreen) {
-            final DeviceProfile profile = mLauncher.getDeviceProfile();
+            lp.setup(cellWidth, cellHeight, mWidthGap, mHeightGap, invertLayoutHorizontally(),
+                    mCountX);
 
-            if (child instanceof LauncherAppWidgetHostView) {
-                lp.setup(mCellWidth, mCellHeight, invertLayoutHorizontally(), mCountX,
-                        profile.appWidgetScale.x, profile.appWidgetScale.y);
-                // Widgets have their own padding
+            if (child instanceof LauncherAppWidgetHostView || child instanceof QsbBlockerView) {
+                // Widgets have their own padding, so skip
             } else {
-                lp.setup(mCellWidth, mCellHeight, invertLayoutHorizontally(), mCountX);
-                // Center the icon/folder
+                // Otherwise, center the icon/folder
                 int cHeight = getCellContentHeight();
                 int cellPaddingY = (int) Math.max(0, ((lp.height - cHeight) / 2f));
-                int cellPaddingX = mContainerType == CellLayout.WORKSPACE
-                        ? profile.workspaceCellPaddingXPx
-                        : (int) (profile.edgeMarginPx / 2f);
+                int cellPaddingX = (int) (grid.edgeMarginPx / 2f);
                 child.setPadding(cellPaddingX, cellPaddingY, cellPaddingX, 0);
             }
         } else {
@@ -147,20 +157,6 @@ public class ShortcutAndWidgetContainer extends ViewGroup {
             final View child = getChildAt(i);
             if (child.getVisibility() != GONE) {
                 CellLayout.LayoutParams lp = (CellLayout.LayoutParams) child.getLayoutParams();
-
-                if (child instanceof LauncherAppWidgetHostView) {
-                    LauncherAppWidgetHostView lahv = (LauncherAppWidgetHostView) child;
-
-                    // Scale and center the widget to fit within its cells.
-                    DeviceProfile profile = mLauncher.getDeviceProfile();
-                    float scaleX = profile.appWidgetScale.x;
-                    float scaleY = profile.appWidgetScale.y;
-
-                    lahv.setScaleToFit(Math.min(scaleX, scaleY));
-                    lahv.setTranslationForCentering(-(lp.width - (lp.width * scaleX)) / 2.0f,
-                            -(lp.height - (lp.height * scaleY)) / 2.0f);
-                }
-
                 int childLeft = lp.x;
                 int childTop = lp.y;
                 child.layout(childLeft, childTop, childLeft + lp.width, childTop + lp.height);
@@ -204,5 +200,29 @@ public class ShortcutAndWidgetContainer extends ViewGroup {
             final View child = getChildAt(i);
             child.cancelLongPress();
         }
+    }
+
+    @Override
+    protected void setChildrenDrawingCacheEnabled(boolean enabled) {
+        final int count = getChildCount();
+        for (int i = 0; i < count; i++) {
+            final View view = getChildAt(i);
+            view.setDrawingCacheEnabled(enabled);
+            // Update the drawing caches
+            if (!view.isHardwareAccelerated() && enabled) {
+                view.buildDrawingCache(true);
+            }
+        }
+    }
+
+    protected void setChildrenDrawnWithCacheEnabled(boolean enabled) {
+        super.setChildrenDrawnWithCacheEnabled(enabled);
+    }
+
+    @Override
+    public void setLayerType(int layerType, Paint paint) {
+        // When clip children is disabled do not use hardware layer,
+        // as hardware layer forces clip children.
+        super.setLayerType(getClipChildren() ? layerType : LAYER_TYPE_NONE, paint);
     }
 }

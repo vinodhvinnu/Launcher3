@@ -21,6 +21,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.launcher3">
     <uses-sdk android:targetSdkVersion="23" android:minSdkVersion="21"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="false"/>
     <!--
     Manifest entries specific to Launcher3. This is merged with AndroidManifest-common.xml.
     Refer comments around specific entries on how to extend individual components.
@@ -32,41 +33,34 @@
     name in the permissions. eq com.mypackage.permission.READ_SETTINGS
     -->
     <permission
-        android:name="com.google.android.apps.nexuslauncher.permission.READ_SETTINGS"
+        android:name="com.android.launcher3.permission.READ_SETTINGS"
         android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
         android:protectionLevel="normal"
         android:label="@string/permlab_read_settings"
         android:description="@string/permdesc_read_settings"/>
     <permission
-        android:name="com.google.android.apps.nexuslauncher.permission.WRITE_SETTINGS"
+        android:name="com.android.launcher3.permission.WRITE_SETTINGS"
         android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
         android:protectionLevel="signatureOrSystem"
         android:label="@string/permlab_write_settings"
         android:description="@string/permdesc_write_settings"/>
+    <permission android:name="com.google.android.apps.nexuslauncher.permission.QSB"
+        android:protectionLevel="normal"
+        android:label="QSB" />
 
     <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
     <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
-    <uses-permission android:name="com.google.android.apps.nexuslauncher.permission.READ_SETTINGS" />
-    <uses-permission android:name="com.google.android.apps.nexuslauncher.permission.WRITE_SETTINGS" />
-
-    <!-- Pixel -->
-    <permission
-        android:name="com.google.android.apps.nexuslauncher.permission.QSB"
-        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
-        android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.android.launcher3.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher3.permission.WRITE_SETTINGS" />
     <uses-permission android:name="com.google.android.apps.nexuslauncher.permission.QSB" />
-
-    <!-- Custom -->
-    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
 
     <application
         android:backupAgent="com.android.launcher3.LauncherBackupAgent"
         android:fullBackupOnly="true"
         android:fullBackupContent="@xml/backupscheme"
         android:hardwareAccelerated="true"
-        android:icon="@drawable/ic_launcher_home"
+        android:icon="@mipmap/ic_launcher_home"
         android:label="@string/derived_app_name"
-        android:theme="@style/LauncherTheme"
         android:largeHeap="@bool/config_largeHeap"
         android:restoreAnyVersion="true"
         android:supportsRtl="true" >
@@ -76,14 +70,14 @@
         attributes and intent filters the same
         -->
         <activity
-            android:name="com.google.android.apps.nexuslauncher.NexusLauncherActivity"
+            android:name="com.android.launcher3.Launcher"
             android:launchMode="singleTask"
             android:clearTaskOnLaunch="true"
             android:stateNotNeeded="true"
+            android:theme="@style/LauncherTheme"
             android:windowSoftInputMode="adjustPan"
             android:screenOrientation="nosensor"
             android:configChanges="keyboard|keyboardHidden|navigation"
-            android:resizeableActivity="true"
             android:resumeWhilePausing="true"
             android:taskAffinity=""
             android:enabled="true">
@@ -92,7 +86,6 @@
                 <category android:name="android.intent.category.HOME" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.MONKEY"/>
-                <category android:name="android.intent.category.LAUNCHER_APP" />
             </intent-filter>
         </activity>
 
@@ -100,9 +93,8 @@
         The settings activity. When extending keep the intent filter present
         -->
         <activity
-            android:name="com.google.android.apps.nexuslauncher.SettingsActivity"
+            android:name="com.android.launcher3.SettingsActivity"
             android:label="@string/settings_button_text"
-            android:theme="@style/SettingsTheme"
             android:autoRemoveFromRecents="true">
             <intent-filter>
                 <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
@@ -117,36 +109,16 @@
         -->
         <provider
             android:name="com.android.launcher3.LauncherProvider"
-            android:authorities="com.google.android.apps.nexuslauncher.settings"
+            android:authorities="com.android.launcher3.settings"
             android:exported="true"
-            android:writePermission="com.google.android.apps.nexuslauncher.permission.WRITE_SETTINGS"
-            android:readPermission="com.google.android.apps.nexuslauncher.permission.READ_SETTINGS" />
+            android:writePermission="com.android.launcher3.permission.WRITE_SETTINGS"
+            android:readPermission="com.android.launcher3.permission.READ_SETTINGS" />
 
-        <!--
-        Pixel
-        -->
-        <activity
-            android:name="com.google.android.apps.nexuslauncher.search.AppLaunchActivity"
-            android:theme="@android:style/Theme.NoDisplay">
-            <intent-filter android:priority="1">
-                <action android:name="com.google.android.apps.nexuslauncher.search.APP_LAUNCH"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <data
-                    android:mimeType="vnd.android.cursor.dir/vnd.android.search.suggest"
-                    android:scheme="content"/>
-            </intent-filter>
-        </activity>
-        <receiver android:name="com.google.android.apps.nexuslauncher.smartspace.SmartspaceBroadcastReceiver">
+        <receiver android:name="com.android.launcher3.SuperWeatherUpdateReceiver" android:permission="android.permission.CAPTURE_AUDIO_HOTWORD">
             <intent-filter>
-                <action android:name="com.google.android.apps.nexuslauncher.UPDATE_SMARTSPACE" />
+                <action android:name="com.google.android.apps.nexuslauncher.updateweather"/>
             </intent-filter>
         </receiver>
-        <receiver android:name="com.google.android.apps.nexuslauncher.qsb.LongClickReceiver" />
-        <provider
-            android:authorities="com.google.android.apps.nexuslauncher.appssearch"
-            android:exported="true"
-            android:name="com.google.android.apps.nexuslauncher.search.AppSearchProvider" />
-
         <!-- ENABLE_FOR_TESTING
 
         <activity
@@ -171,7 +143,7 @@
             android:theme="@android:style/Theme.NoDisplay"
             android:label="* HPROF"
             android:excludeFromRecents="true"
-            android:icon="@drawable/ic_launcher_home"
+            android:icon="@mipmap/ic_launcher_home"
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -183,7 +155,7 @@
         <activity
             android:name="com.android.launcher3.testing.ToggleWeightWatcher"
             android:label="Show Mem"
-            android:icon="@drawable/ic_launcher_home">
+            android:icon="@mipmap/ic_launcher_home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />

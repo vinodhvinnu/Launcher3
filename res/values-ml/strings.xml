@@ -27,19 +27,14 @@
     <string name="safemode_shortcut_error" msgid="9160126848219158407">"ഡൗൺലോഡുചെയ്‌ത അപ്ലിക്കേഷൻ സുരക്ഷാ മോഡിൽ പ്രവർത്തനരഹിതമാക്കി"</string>
     <string name="safemode_widget_error" msgid="4863470563535682004">"സുരക്ഷിത മോഡിൽ വിജറ്റുകൾ പ്രവർത്തനരഹിതമാക്കി"</string>
     <string name="shortcut_not_available" msgid="2536503539825726397">"കുറുക്കുവഴി ലഭ്യമല്ല"</string>
-    <string name="home_screen" msgid="806512411299847073">"ഹോം സ്‌ക്രീൻ"</string>
-    <string name="custom_actions" msgid="3747508247759093328">"ഇഷ്‌ടാനുസൃത പ്രവർത്തനങ്ങൾ"</string>
     <string name="long_press_widget_to_add" msgid="7699152356777458215">"ഒരു വിജറ്റ് ചേർക്കുന്നതിന് അത് സ്‌പർശിച്ച് പിടിക്കുക."</string>
     <string name="long_accessible_way_to_add" msgid="4289502106628154155">"വിജറ്റ് തിരഞ്ഞെടുക്കാനോ ഇഷ്ടാനുസൃത പ്രവർത്തനങ്ങൾ ഉപയോഗിക്കാനോ രണ്ടുതവണ ടാപ്പുചെയ്ത് പിടിക്കുക."</string>
     <string name="widget_dims_format" msgid="2370757736025621599">"%1$d × %2$d"</string>
     <string name="widget_accessible_dims_format" msgid="3640149169885301790">"%1$d വീതിയും %2$d ഉയരവും"</string>
-    <string name="add_item_request_drag_hint" msgid="5899764264480397019">"സ്വമേധയാ സ്ഥാപിക്കുന്നതിന് സ്‌പർശിച്ചുപിടിക്കുക"</string>
-    <string name="place_automatically" msgid="8064208734425456485">"സ്വയമേവ ചേർക്കുക"</string>
-    <string name="all_apps_search_bar_hint" msgid="1390553134053255246">"ആപ്പുകൾ തിരയുക"</string>
-    <string name="all_apps_loading_message" msgid="5813968043155271636">"ആപ്പുകൾ ലോഡുചെയ്യുന്നു..."</string>
-    <string name="all_apps_no_search_results" msgid="3200346862396363786">"\"<xliff:g id="QUERY">%1$s</xliff:g>\" എന്നതുമായി പൊരുത്തപ്പെടുന്ന ആപ്പുകളൊന്നും കണ്ടെത്തിയില്ല"</string>
+    <string name="all_apps_search_bar_hint" msgid="7084713969757597256">"ആപ്പ്‌സ് തിരയുക"</string>
+    <string name="all_apps_loading_message" msgid="7557140873644765180">"ആപ്പ്‌സ് ലോഡുചെയ്യുന്നു..."</string>
+    <string name="all_apps_no_search_results" msgid="6332185285860416787">"\"<xliff:g id="QUERY">%1$s</xliff:g>\" എന്നതുമായി പൊരുത്തപ്പെടുന്ന ആപ്പ്‌സൊന്നും കണ്ടെത്തിയില്ല"</string>
     <string name="all_apps_search_market_message" msgid="1366263386197059176">"കൂടുതൽ ആപ്പുകൾക്ക് തിരയുക"</string>
-    <string name="notifications_header" msgid="1404149926117359025">"അറിയിപ്പുകൾ"</string>
     <string name="out_of_space" msgid="4691004494942118364">"ഈ ഹോം സ്‌ക്രീനിൽ ഒഴിവൊന്നുമില്ല."</string>
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"പ്രിയപ്പെട്ടവയുടെ ട്രേയിൽ ഒഴിവൊന്നുമില്ല"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"അപ്ലിക്കേഷനുകളുടെ ലിസ്‌റ്റ്"</string>
@@ -70,27 +65,12 @@
     <string name="folder_name_format" msgid="6629239338071103179">"ഫോൾഡർ: <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="widget_button_text" msgid="2880537293434387943">"വിജറ്റുകൾ"</string>
     <string name="wallpaper_button_text" msgid="8404103075899945851">"വാൾപേപ്പർ"</string>
-    <string name="settings_button_text" msgid="8873672322605444408">"ഹോം ക്രമീകരണം"</string>
+    <string name="settings_button_text" msgid="8119458837558863227">"ക്രമീകരണം"</string>
     <string name="msg_disabled_by_admin" msgid="6898038085516271325">"അഡ്മിൻ പ്രവർത്തനരഹിതമാക്കിയിരിക്കുന്നു"</string>
-    <string name="accessibility_action_overview" msgid="6257665857640347026">"അവലോകനം"</string>
+    <string name="accessibility_action_overview" msgid="6257665857640347026">"കാഴ്ച"</string>
     <string name="allow_rotation_title" msgid="7728578836261442095">"ഹോം സ്ക്രീൻ തിരിക്കൽ അനുവദിക്കുക"</string>
     <string name="allow_rotation_desc" msgid="8662546029078692509">"ഫോൺ തിരിച്ച നിലയിലായിരിക്കുമ്പോൾ"</string>
     <string name="allow_rotation_blocked_desc" msgid="3212602545192996253">"നിലവിലെ ഡിസ്പ്ലേ ക്രമീകരണം തിരിക്കൽ അനുവദിക്കുന്നില്ല"</string>
-    <string name="icon_badging_title" msgid="874121399231955394">"അറിയിപ്പ് ഡോട്ടുകൾ"</string>
-    <string name="icon_badging_desc_on" msgid="2627952638544674079">"ഓൺ"</string>
-    <string name="icon_badging_desc_off" msgid="5503319969924580241">"ഓഫ്"</string>
-    <string name="title_missing_notification_access" msgid="7503287056163941064">"അറിയിപ്പിനായുള്ള ആക്‌സസ് ആവശ്യമാണ്"</string>
-    <string name="msg_missing_notification_access" msgid="281113995110910548">"അറിയിപ്പ് ഡോട്ടുകൾ കാണിക്കുന്നതിന്, <xliff:g id="NAME">%1$s</xliff:g> എന്നയാളിനായുള്ള ആപ്പ് അറിയിപ്പുകൾ ഓണാക്കുക"</string>
-    <string name="title_change_settings" msgid="1376365968844349552">"ക്രമീകരണം മാറ്റുക"</string>
-    <string name="auto_add_shortcuts_label" msgid="8222286205987725611">"ഹോം സ്ക്രീനിലേക്ക് ഐക്കൺ ചേർക്കുക"</string>
-    <string name="auto_add_shortcuts_description" msgid="7117251166066978730">"പുതിയ ആപ്പുകൾക്ക്"</string>
-    <string name="icon_shape_override_label" msgid="2977264953998281004">"ഐക്കണിന്റെ ആകാരം മാറ്റുക"</string>
-    <string name="icon_shape_system_default" msgid="1709762974822753030">"സിസ്‌റ്റം ഡിഫോൾട്ട് ഉപയോഗിക്കുക"</string>
-    <string name="icon_shape_square" msgid="633575066111622774">"ചതുരം"</string>
-    <string name="icon_shape_squircle" msgid="5658049910802669495">"ചതുരവൃത്തം"</string>
-    <string name="icon_shape_circle" msgid="6550072265930144217">"വൃത്തം"</string>
-    <string name="icon_shape_teardrop" msgid="4525869388200835463">"കണ്ണുനീര്‍ തുള്ളി"</string>
-    <string name="icon_shape_override_progress" msgid="3461735694970239908">"ഐക്കൺ ആകാര മാറ്റങ്ങൾ പ്രയോഗിക്കുന്നു"</string>
     <string name="package_state_unknown" msgid="7592128424511031410">"അജ്ഞാതം"</string>
     <string name="abandoned_clean_this" msgid="7610119707847920412">"നീക്കംചെയ്യുക"</string>
     <string name="abandoned_search" msgid="891119232568284442">"തിരയുക"</string>
@@ -98,7 +78,6 @@
     <string name="abandoned_promise_explanation" msgid="3990027586878167529">"ഈ ഐക്കണുവേണ്ടി അപ്ലിക്കേഷൻ ഇൻസ്റ്റാളുചെയ്‌തിട്ടില്ല. നിങ്ങൾക്കത് നീക്കംചെയ്യാനാകും അല്ലെങ്കിൽ അപ്ലിക്കേഷനുവേണ്ടി തിരഞ്ഞുകൊണ്ട് അത് സ്വമേധയാ ഇൻസ്റ്റാളുചെയ്യുക."</string>
     <string name="app_downloading_title" msgid="8336702962104482644">"<xliff:g id="NAME">%1$s</xliff:g> ഡൗൺലോഡ് ചെയ്യുന്നു, <xliff:g id="PROGRESS">%2$s</xliff:g> പൂർത്തിയായി"</string>
     <string name="app_waiting_download_title" msgid="7053938513995617849">"ഇൻസ്റ്റാൾ ചെയ്യാൻ <xliff:g id="NAME">%1$s</xliff:g> കാക്കുന്നു"</string>
-    <string name="widgets_bottom_sheet_title" msgid="2904559530954183366">"<xliff:g id="NAME">%1$s</xliff:g> വിജറ്റുകൾ"</string>
     <string name="action_add_to_workspace" msgid="8902165848117513641">"ഹോം സ്ക്രീനിൽ ചേർക്കുക"</string>
     <string name="action_move_here" msgid="2170188780612570250">"ഇനം ഇവിടേക്ക് നീക്കുക"</string>
     <string name="item_added_to_workspace" msgid="4211073925752213539">"ഹോം സ്‌ക്രീനിൽ ഇനം ചേർത്തു"</string>
@@ -125,27 +104,6 @@
     <string name="widget_resized" msgid="9130327887929620">"വീതി <xliff:g id="NUMBER_0">%1$s</xliff:g> ഉയരം <xliff:g id="NUMBER_1">%2$s</xliff:g>-ലേക്ക് വിഡ്‌ജെറ്റിന്റെ വലുപ്പം മാറ്റി"</string>
     <string name="action_deep_shortcut" msgid="2864038805849372848">"കുറുക്കുവഴികൾ"</string>
     <string name="shortcuts_menu_description" msgid="406159963824238648">"<xliff:g id="APP_NAME">%2$s</xliff:g> ആപ്പിനുള്ള <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> കുറുക്കുവഴികൾ"</string>
-    <string name="shortcuts_menu_with_notifications_description" msgid="8985659504915468840">"<xliff:g id="APP_NAME">%3$s</xliff:g> ആപ്പിനായുള്ള <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> കുറുക്കുവഴികളും <xliff:g id="NUMBER_OF_NOTIFICATIONS">%2$d</xliff:g> അറിയിപ്പുകളും"</string>
-    <string name="action_dismiss_notification" msgid="5909461085055959187">"നിരസിക്കുക"</string>
-    <string name="notification_dismissed" msgid="6002233469409822874">"അറിയിപ്പ് നിരസിച്ചു"</string>
-    <string name="smartspace_preferences">മുൻഗണനകൾ</string>
     <string name="label_search">തിരയുക</string>
-    <string name="label_voice_search">ശബ്ദതിരയൽ</string>
-    <string name="pref_icon_pack">ഐക്കണ്‍ പാക്ക്</string>
-    <string name="state_loading">ബാധകമാക്കുന്നു…</string>
-    <string name="smartspace_preferences_in_settings">ഒറ്റനോട്ടത്തിൽ</string>
-    <string name="smartspace_preferences_in_settings_desc">നിങ്ങളുടെ ഹോം സ്‌ക്രീനിന്റെ മുകളിൽ</string>
-    <string name="title_show_google_app">%1$s പ്രദർശിപ്പിക്കുക</string>
-    <string name="msg_minus_one_on_left">പ്രധാന ഹോം സ്‌ക്രീനിന്റെ ഇടതുവശത്ത്</string>
-    <string name="about">ആമുഖം</string>
-    <string name="title_google_app">Google ആപ്പ്</string>
-    <string name="title_app_suggestions">ആപ്പ് നിർദ്ദേശങ്ങൾ പ്രദർശിപ്പിക്കുക</string>
-    <string name="summary_app_suggestions">"നിങ്ങളുടെ 'എല്ലാ ആപ്പുകളും' ലിസ്റ്റിന്റെ മുകളിൽ"</string>
-    <string name="about_app_version">പതിപ്പ്</string>
-    <string name="app_name_pixel_launcher">Pixel ലോഞ്ചർ</string>
-    <string name="title_disable_suggestions_prompt">ആപ്പ് നിർദ്ദേശങ്ങൾ ഓഫാക്കണോ?</string>
-    <string name="msg_disable_suggestions_prompt">നിങ്ങളുടെ ആപ്സ് ലിസ്റ്റിന്റെ മുകളിൽ നിർദ്ദേശങ്ങൾ ദൃശ്യമാകില്ല, അവ സൃഷ്ടിക്കാൻ ഉപയോഗിച്ച ഉപയോഗ ഡാറ്റ ശാശ്വതമായി മായ്ക്കപ്പെടും.</string>
-    <string name="label_turn_off_suggestions">ഓഫാക്കുക</string>
-    <string name="action_edit">തിരുത്തുക</string>
-    <string name="icon_shape_rounded_square">വൃത്താകാര ചതുരം</string>
+    <string name="week_day_format">%1$s, %2$s</string>
 </resources>

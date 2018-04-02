@@ -27,19 +27,14 @@
     <string name="safemode_shortcut_error" msgid="9160126848219158407">"在安全模式中無法使用「已下載的應用程式」功能"</string>
     <string name="safemode_widget_error" msgid="4863470563535682004">"在安全模式中無法使用小工具"</string>
     <string name="shortcut_not_available" msgid="2536503539825726397">"沒有可用的捷徑"</string>
-    <string name="home_screen" msgid="806512411299847073">"主畫面"</string>
-    <string name="custom_actions" msgid="3747508247759093328">"自訂操作"</string>
     <string name="long_press_widget_to_add" msgid="7699152356777458215">"輕觸並按住小工具即可選取。"</string>
     <string name="long_accessible_way_to_add" msgid="4289502106628154155">"連扲兩下，然後扲住，就可以新增小工具，或者執行自訂操作。"</string>
     <string name="widget_dims_format" msgid="2370757736025621599">"%1$d × %2$d"</string>
     <string name="widget_accessible_dims_format" msgid="3640149169885301790">"%1$d 闊，%2$d 高"</string>
-    <string name="add_item_request_drag_hint" msgid="5899764264480397019">"按住即可手動新增"</string>
-    <string name="place_automatically" msgid="8064208734425456485">"自動新增"</string>
-    <string name="all_apps_search_bar_hint" msgid="1390553134053255246">"搜尋應用程式"</string>
-    <string name="all_apps_loading_message" msgid="5813968043155271636">"正在載入應用程式…"</string>
-    <string name="all_apps_no_search_results" msgid="3200346862396363786">"找不到與「<xliff:g id="QUERY">%1$s</xliff:g>」相符的應用程式"</string>
+    <string name="all_apps_search_bar_hint" msgid="7084713969757597256">"搜尋應用程式"</string>
+    <string name="all_apps_loading_message" msgid="7557140873644765180">"正在載入應用程式…"</string>
+    <string name="all_apps_no_search_results" msgid="6332185285860416787">"無法找到與「<xliff:g id="QUERY">%1$s</xliff:g>」相符的應用程式"</string>
     <string name="all_apps_search_market_message" msgid="1366263386197059176">"搜尋更多應用程式"</string>
-    <string name="notifications_header" msgid="1404149926117359025">"通知"</string>
     <string name="out_of_space" msgid="4691004494942118364">"主畫面已無空間。"</string>
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"我的收藏寄存區沒有足夠空間"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"應用程式清單"</string>
@@ -70,27 +65,12 @@
     <string name="folder_name_format" msgid="6629239338071103179">"資料夾：<xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="widget_button_text" msgid="2880537293434387943">"小工具"</string>
     <string name="wallpaper_button_text" msgid="8404103075899945851">"桌布"</string>
-    <string name="settings_button_text" msgid="8873672322605444408">"Home 設定"</string>
+    <string name="settings_button_text" msgid="8119458837558863227">"設定"</string>
     <string name="msg_disabled_by_admin" msgid="6898038085516271325">"已由您的管理員停用"</string>
     <string name="accessibility_action_overview" msgid="6257665857640347026">"概覽"</string>
     <string name="allow_rotation_title" msgid="7728578836261442095">"允許主畫面旋轉"</string>
     <string name="allow_rotation_desc" msgid="8662546029078692509">"當手機旋轉時"</string>
     <string name="allow_rotation_blocked_desc" msgid="3212602545192996253">"「目前顯示屏」設定不允許旋轉"</string>
-    <string name="icon_badging_title" msgid="874121399231955394">"通知圓點"</string>
-    <string name="icon_badging_desc_on" msgid="2627952638544674079">"開啟"</string>
-    <string name="icon_badging_desc_off" msgid="5503319969924580241">"關閉"</string>
-    <string name="title_missing_notification_access" msgid="7503287056163941064">"需要獲取通知存取權"</string>
-    <string name="msg_missing_notification_access" msgid="281113995110910548">"如要顯示「通知圓點」，請開啟「<xliff:g id="NAME">%1$s</xliff:g>」的應用程式通知功能"</string>
-    <string name="title_change_settings" msgid="1376365968844349552">"變更設定"</string>
-    <string name="auto_add_shortcuts_label" msgid="8222286205987725611">"將圖示加到主畫面"</string>
-    <string name="auto_add_shortcuts_description" msgid="7117251166066978730">"適用於新安裝的應用程式"</string>
-    <string name="icon_shape_override_label" msgid="2977264953998281004">"變更圖示形狀"</string>
-    <string name="icon_shape_system_default" msgid="1709762974822753030">"使用系統預設設定"</string>
-    <string name="icon_shape_square" msgid="633575066111622774">"正方形"</string>
-    <string name="icon_shape_squircle" msgid="5658049910802669495">"方圓形"</string>
-    <string name="icon_shape_circle" msgid="6550072265930144217">"圓形"</string>
-    <string name="icon_shape_teardrop" msgid="4525869388200835463">"淚珠形"</string>
-    <string name="icon_shape_override_progress" msgid="3461735694970239908">"正在套用圖示形狀變更"</string>
     <string name="package_state_unknown" msgid="7592128424511031410">"不明"</string>
     <string name="abandoned_clean_this" msgid="7610119707847920412">"移除"</string>
     <string name="abandoned_search" msgid="891119232568284442">"搜尋"</string>
@@ -98,7 +78,6 @@
     <string name="abandoned_promise_explanation" msgid="3990027586878167529">"您尚未安裝這個圖示代表的應用程式。您可以移除這個圖示，也可以搜尋該應用程式並手動安裝。"</string>
     <string name="app_downloading_title" msgid="8336702962104482644">"正在下載 <xliff:g id="NAME">%1$s</xliff:g>，已完成 <xliff:g id="PROGRESS">%2$s</xliff:g>"</string>
     <string name="app_waiting_download_title" msgid="7053938513995617849">"正在等待安裝 <xliff:g id="NAME">%1$s</xliff:g>"</string>
-    <string name="widgets_bottom_sheet_title" msgid="2904559530954183366">"<xliff:g id="NAME">%1$s</xliff:g>小工具"</string>
     <string name="action_add_to_workspace" msgid="8902165848117513641">"新增至主畫面"</string>
     <string name="action_move_here" msgid="2170188780612570250">"移動項目至這裡"</string>
     <string name="item_added_to_workspace" msgid="4211073925752213539">"已將項目加入至主畫面"</string>
@@ -125,27 +104,6 @@
     <string name="widget_resized" msgid="9130327887929620">"已調整小工具的大小至闊 <xliff:g id="NUMBER_0">%1$s</xliff:g> 高 <xliff:g id="NUMBER_1">%2$s</xliff:g>"</string>
     <string name="action_deep_shortcut" msgid="2864038805849372848">"捷徑"</string>
     <string name="shortcuts_menu_description" msgid="406159963824238648">"「<xliff:g id="APP_NAME">%2$s</xliff:g>」嘅 <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> 個捷徑"</string>
-    <string name="shortcuts_menu_with_notifications_description" msgid="8985659504915468840">"「<xliff:g id="APP_NAME">%3$s</xliff:g>」嘅 <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> 個捷徑同 <xliff:g id="NUMBER_OF_NOTIFICATIONS">%2$d</xliff:g> 個通知"</string>
-    <string name="action_dismiss_notification" msgid="5909461085055959187">"關閉"</string>
-    <string name="notification_dismissed" msgid="6002233469409822874">"關閉咗通知"</string>
-    <string name="smartspace_preferences">偏好設定</string>
     <string name="label_search">搜尋</string>
-    <string name="label_voice_search">語音搜尋</string>
-    <string name="pref_icon_pack">圖示套件</string>
-    <string name="state_loading">套用中…</string>
-    <string name="smartspace_preferences_in_settings">資訊一覽</string>
-    <string name="smartspace_preferences_in_settings_desc">主畫面頂部</string>
-    <string name="title_show_google_app">顯示 %1$s</string>
-    <string name="msg_minus_one_on_left">位於主畫面左邊</string>
-    <string name="about">關於</string>
-    <string name="title_google_app">Google 應用程式</string>
-    <string name="title_app_suggestions">顯示應用程式建議</string>
-    <string name="summary_app_suggestions">位於「全部應用程式」清單頂部</string>
-    <string name="about_app_version">版本</string>
-    <string name="app_name_pixel_launcher">Pixel 啟動器</string>
-    <string name="title_disable_suggestions_prompt">要關閉應用程式建議嗎？</string>
-    <string name="msg_disable_suggestions_prompt">建議將不會在應用程式清單上方顯示，而用作提供建議的使用資料將會永久清除。</string>
-    <string name="label_turn_off_suggestions">關閉</string>
-    <string name="action_edit">編輯</string>
-    <string name="icon_shape_rounded_square">圓角正方形</string>
+    <string name="week_day_format">%1$s，%2$s</string>
 </resources>

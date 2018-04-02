@@ -27,19 +27,14 @@
     <string name="safemode_shortcut_error" msgid="9160126848219158407">"Afgelaaide program in veiligmodus gedeaktiveer"</string>
     <string name="safemode_widget_error" msgid="4863470563535682004">"Legstukke gedeaktiveer in Veiligmodus"</string>
     <string name="shortcut_not_available" msgid="2536503539825726397">"Kortpad is nie beskikbaar nie"</string>
-    <string name="home_screen" msgid="806512411299847073">"Tuisskerm"</string>
-    <string name="custom_actions" msgid="3747508247759093328">"Gepasmaakte handelinge"</string>
     <string name="long_press_widget_to_add" msgid="7699152356777458215">"Raak en hou om \'n legstuk op te tel."</string>
     <string name="long_accessible_way_to_add" msgid="4289502106628154155">"Dubbeltik en hou om \'n legstuk op te tel of gebruik gepasmaakte handelinge."</string>
     <string name="widget_dims_format" msgid="2370757736025621599">"%1$d × %2$d"</string>
     <string name="widget_accessible_dims_format" msgid="3640149169885301790">"%1$d breed by %2$d hoog"</string>
-    <string name="add_item_request_drag_hint" msgid="5899764264480397019">"Raak en hou om self te plaas"</string>
-    <string name="place_automatically" msgid="8064208734425456485">"Voeg outomaties by"</string>
-    <string name="all_apps_search_bar_hint" msgid="1390553134053255246">"Deursoek programme"</string>
-    <string name="all_apps_loading_message" msgid="5813968043155271636">"Laai tans programme …"</string>
-    <string name="all_apps_no_search_results" msgid="3200346862396363786">"Kon geen programme kry wat by \"<xliff:g id="QUERY">%1$s</xliff:g>\" pas nie"</string>
+    <string name="all_apps_search_bar_hint" msgid="7084713969757597256">"Deursoek programme"</string>
+    <string name="all_apps_loading_message" msgid="7557140873644765180">"Laai tans programme …"</string>
+    <string name="all_apps_no_search_results" msgid="6332185285860416787">"Geen programme gevind wat met \"<xliff:g id="QUERY">%1$s</xliff:g>\" ooreenstem nie"</string>
     <string name="all_apps_search_market_message" msgid="1366263386197059176">"Soek meer programme"</string>
-    <string name="notifications_header" msgid="1404149926117359025">"Kennisgewings"</string>
     <string name="out_of_space" msgid="4691004494942118364">"Niks meer spasie op die tuisskerm nie."</string>
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"Geen plek meer in die Gunstelinge-laai nie"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"Programmelys"</string>
@@ -70,27 +65,12 @@
     <string name="folder_name_format" msgid="6629239338071103179">"Vouer: <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="widget_button_text" msgid="2880537293434387943">"Legstukke"</string>
     <string name="wallpaper_button_text" msgid="8404103075899945851">"Muurpapiere"</string>
-    <string name="settings_button_text" msgid="8873672322605444408">"Home-instellings"</string>
+    <string name="settings_button_text" msgid="8119458837558863227">"Instellings"</string>
     <string name="msg_disabled_by_admin" msgid="6898038085516271325">"Gedeaktiveer deur jou administrateur"</string>
     <string name="accessibility_action_overview" msgid="6257665857640347026">"Oorsig"</string>
     <string name="allow_rotation_title" msgid="7728578836261442095">"Laat toe dat tuisskerm gedraai word"</string>
     <string name="allow_rotation_desc" msgid="8662546029078692509">"Wanneer foon gedraai word"</string>
     <string name="allow_rotation_blocked_desc" msgid="3212602545192996253">"Huidige vertooninstelling laat nie rotasie toe nie"</string>
-    <string name="icon_badging_title" msgid="874121399231955394">"Kennisgewingkolle"</string>
-    <string name="icon_badging_desc_on" msgid="2627952638544674079">"Aan"</string>
-    <string name="icon_badging_desc_off" msgid="5503319969924580241">"Af"</string>
-    <string name="title_missing_notification_access" msgid="7503287056163941064">"Kennisgewingtoegang word benodig"</string>
-    <string name="msg_missing_notification_access" msgid="281113995110910548">"Skakel programkennisgewings vir <xliff:g id="NAME">%1$s</xliff:g> aan om kennisgewingkolle te sien"</string>
-    <string name="title_change_settings" msgid="1376365968844349552">"Verander instellings"</string>
-    <string name="auto_add_shortcuts_label" msgid="8222286205987725611">"Voeg ikoon by tuisskerm"</string>
-    <string name="auto_add_shortcuts_description" msgid="7117251166066978730">"Vir nuwe programme"</string>
-    <string name="icon_shape_override_label" msgid="2977264953998281004">"Verander ikoon se vorm"</string>
-    <string name="icon_shape_system_default" msgid="1709762974822753030">"Gebruik stelselverstek"</string>
-    <string name="icon_shape_square" msgid="633575066111622774">"Vierkant"</string>
-    <string name="icon_shape_squircle" msgid="5658049910802669495">"Sirkelvierkant"</string>
-    <string name="icon_shape_circle" msgid="6550072265930144217">"Sirkel"</string>
-    <string name="icon_shape_teardrop" msgid="4525869388200835463">"Traandruppel"</string>
-    <string name="icon_shape_override_progress" msgid="3461735694970239908">"Pas ikoonvormveranderings toe"</string>
     <string name="package_state_unknown" msgid="7592128424511031410">"Onbekend"</string>
     <string name="abandoned_clean_this" msgid="7610119707847920412">"Verwyder"</string>
     <string name="abandoned_search" msgid="891119232568284442">"Soek"</string>
@@ -98,7 +78,6 @@
     <string name="abandoned_promise_explanation" msgid="3990027586878167529">"Die program vir hierdie ikoon is nie geïnstalleer nie. Jy kan dit verwyder of die program soek en dit self installeer."</string>
     <string name="app_downloading_title" msgid="8336702962104482644">"<xliff:g id="NAME">%1$s</xliff:g> laai tans af, <xliff:g id="PROGRESS">%2$s</xliff:g> voltooid"</string>
     <string name="app_waiting_download_title" msgid="7053938513995617849">"<xliff:g id="NAME">%1$s</xliff:g> wag tans om te installeer"</string>
-    <string name="widgets_bottom_sheet_title" msgid="2904559530954183366">"<xliff:g id="NAME">%1$s</xliff:g>-legstukke"</string>
     <string name="action_add_to_workspace" msgid="8902165848117513641">"Voeg by tuisskerm"</string>
     <string name="action_move_here" msgid="2170188780612570250">"Skuif item hierheen"</string>
     <string name="item_added_to_workspace" msgid="4211073925752213539">"Item is by tuisskerm gevoeg"</string>
@@ -125,24 +104,6 @@
     <string name="widget_resized" msgid="9130327887929620">"Legstukgrootte is verander na breedte <xliff:g id="NUMBER_0">%1$s</xliff:g> hoogte <xliff:g id="NUMBER_1">%2$s</xliff:g>"</string>
     <string name="action_deep_shortcut" msgid="2864038805849372848">"Kortpaaie"</string>
     <string name="shortcuts_menu_description" msgid="406159963824238648">"<xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> kortpaaie vir <xliff:g id="APP_NAME">%2$s</xliff:g>"</string>
-    <string name="shortcuts_menu_with_notifications_description" msgid="8985659504915468840">"<xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> kortpaaie en <xliff:g id="NUMBER_OF_NOTIFICATIONS">%2$d</xliff:g> kennisgewings vir <xliff:g id="APP_NAME">%3$s</xliff:g>"</string>
-    <string name="action_dismiss_notification" msgid="5909461085055959187">"Maak toe"</string>
-    <string name="notification_dismissed" msgid="6002233469409822874">"Kennisgewing is toegemaak"</string>
-    <string name="smartspace_preferences">Voorkeure</string>
     <string name="label_search">Soek</string>
-    <string name="label_voice_search">Stemsoektog</string>
-    <string name="smartspace_preferences_in_settings">Met een blik</string>
-    <string name="smartspace_preferences_in_settings_desc">Boaan jou Tuisskerm</string>
-    <string name="title_show_google_app">Wys %1$s</string>
-    <string name="msg_minus_one_on_left">Links van die hooftuisskerm</string>
-    <string name="about">Meer oor</string>
-    <string name="title_google_app">Google-program</string>
-    <string name="title_app_suggestions">Wys programvoorstelle</string>
-    <string name="summary_app_suggestions">Boaan jou Alle Programme-lys</string>
-    <string name="about_app_version">Weergawe</string>
-    <string name="app_name_pixel_launcher">Pixel-lanseerder</string>
-    <string name="title_disable_suggestions_prompt">Skakel programvoorstelle af?</string>
-    <string name="msg_disable_suggestions_prompt">Voorstelle sal nie boaan jou programlys verskyn nie en die gebruikdata wat gebruik word om hulle te skep, sal permanent uitgevee word.</string>
-    <string name="label_turn_off_suggestions">SKAKEL AF</string>
-    <string name="icon_shape_rounded_square">Vierkant met geronde hoeke</string>
+    <string name="week_day_format">%1$s, %2$s</string>
 </resources>
